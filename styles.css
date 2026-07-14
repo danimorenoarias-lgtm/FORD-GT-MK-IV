@@ -73,6 +73,19 @@ p {
   color: #cfcfcf;
 }
 
+/* LISTAS */
+ol {
+    max-width: 900px;
+    margin: 20px auto;
+    padding-left: 40px;
+    color: #cfcfcf;
+    font-family: 'Poppins', sans-serif;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
 /* IMÁGENES */
 img {
   display: block;
