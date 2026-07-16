@@ -105,4 +105,112 @@ h6 {
   font-family: "Orbitron", sans-serif !important;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.carousel{
+    max-width:1000px;
+    margin:50px auto;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.5);
+}
+
+.carousel img{
+    height:600px;
+    object-fit:cover;
+}
+
+.carousel-caption{
+    background:rgba(0,0,0,.55);
+    border-radius:12px;
+    padding:20px;
+}
+
+.carousel h3{
+    color:white;
+}
+
+.carousel p{
+    color:#ddd;
+}
+
+.card{
+    transition:0.4s;
+    border-width:2px;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(229,9,20,.35);
+}
+
+.card h4{
+    color:#e50914;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#ddd;
+}
+
+.card{
+
+    transition:.4s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(229,9,20,.45);
+
+}
+
+.card i{
+
+    transition:.4s;
+
+}
+
+.card:hover i{
+
+    transform:scale(1.2);
+
+}
+
+.navbar{
+
+box-shadow:0 5px 15px rgba(0,0,0,.5);
+
+}
+
+section{
+
+animation: aparecer .8s ease;
+
+}
+
+@keyframes aparecer{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+*{
+
+transition:.25s;
+
+}
